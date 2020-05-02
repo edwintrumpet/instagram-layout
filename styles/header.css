@@ -1,9 +1,15 @@
 .header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.header__container {
     display: grid;
     grid-template-columns: 1fr minmax(222px, 1fr);
     grid-template-areas: "logo navigation";
     align-items: center;
-    border-bottom: 1px solid #dbdbdb;
     width: 100%;
     max-width: 975px;
     height: 54px;
@@ -73,7 +79,7 @@
 }
 
 @media screen and (min-width: 580px) {
-    .header {
+    .header__container {
         grid-template-columns: 1fr 215px minmax(222px, 1fr);
         grid-template-areas: "logo search navigation"; 
     }
