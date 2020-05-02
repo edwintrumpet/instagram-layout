@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/layout.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/profile.css">
 </head>
 <body>
     <header class="header">
@@ -23,7 +24,7 @@
                     <i class="material-icons">explore</i>
                     <i class="material-icons">favorite_border</i>
                     <div class="header__navigation-avatar">
-                        <img src="./images/profile.jpg" alt="profile">
+                        <img src="https://images.pexels.com/photos/2494654/pexels-photo-2494654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="profile">
                     </div>
                 </div>
             </nav>
@@ -31,9 +32,44 @@
     </header>
 
     <div class="content">
-        <section class="content__profile">
-            <h1>Profile works!</h1>
+        <section class="profile">
+            <div class="profile__avatar">
+                <img src="https://images.pexels.com/photos/2494654/pexels-photo-2494654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="profile">
+            </div>
+            <div class="profile__info">
+                <span class="profile__nick">cookmaster</span>
+                <div class="profile__buttons">
+                    <button>Enviar mensaje</button>
+                    <button>
+                        <i class="material-icons">person</i>
+                    </button>
+                    <button>
+                        <i class="material-icons">arrow_drop_down</i>
+                    </button>
+                </div>
+                <div class="profile__dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="profile__statistics">
+                    <span class="profile__statistics-amount">52</span>
+                    <span class="profile__statistics-tag">publicaciones</span>
+                    <span class="profile__statistics-amount">619</span>
+                    <span class="profile__statistics-tag">seguidores</span>
+                    <span class="profile__statistics-amount">85</span>
+                    <span class="profile__statistics-tag">seguidos</span>
+                </div>
+                <div class="profile__info-text">
+                    <p class="profile__name">Quike</p>
+                    <div class="profile__description">
+                        <p>Cocinero profesional</p>
+                        <p>Me gusta viajar, ver películas y hacer deporte</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <section class="post-list">
             <a href="#" class="post">
                 <figure class="post-image">

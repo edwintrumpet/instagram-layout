@@ -1,8 +1,9 @@
 .content {
+    width: 100%;
     max-width: 975px;
 }
 
-@media screen and (min-width: 735px) {
+@media screen and (min-width: 580px) {
     .content {
         padding: 30px 20px 0;
     }
