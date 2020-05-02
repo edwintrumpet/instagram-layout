@@ -4,6 +4,7 @@
     width: 100%;
     border-bottom: 1px solid #dbdbdb;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .header__container {

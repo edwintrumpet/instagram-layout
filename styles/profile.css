@@ -10,6 +10,7 @@
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: 21px;
     padding: 21px 16px;
+    overflow: hidden;
 }
 
 .profile__avatar {
