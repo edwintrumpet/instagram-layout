@@ -12,9 +12,8 @@ Movil view
 
 website in https://edwintrumpet.github.io/instagram-layout/
 
-Pictures from [Pexels](https://www.pexels.com/)
-Original logo from [Instagram](https://instagram.com)
-Icons from [Font Awesome](https://fontawesome.com/)
+Pictures from [Pexels](https://www.pexels.com/)  
+Icons from [Material icons](https://material.io/resources/icons/)
 
 ## Author
 

@@ -50,7 +50,7 @@ body {
     top: 0;
     display: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     text-align: center;
 }
@@ -61,8 +61,7 @@ body {
 
 .post-likes,
 .post-comments {
-    width: 80px;
-    margin: 5px;
+    margin-left: 5px;
     font-weight: bold;
     text-align: center;
     display: inline-block;
