@@ -9,6 +9,7 @@
     justify-content: start;
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: 21px;
+    padding: 21px 16px;
 }
 
 .profile__avatar {
@@ -93,9 +94,6 @@
 
 .profile__info {
     grid-area: info;
-}
-
-.profile__info {
     font-size: 16px;
 }
 
@@ -108,7 +106,6 @@
     grid-area: stories;
     display: flex;
     justify-content: flex-start;
-    padding-bottom: 21px;
 }
 
 .profile__stories-label {
@@ -154,6 +151,7 @@
                              "stories stories stories stories";
         gap: 44px 20px;
         margin-bottom: 44px;
+        padding: 0;
     }
 
     .profile__statistics {
