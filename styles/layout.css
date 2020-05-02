@@ -1,6 +1,5 @@
 .content {
     max-width: 975px;
-    background-color: yellowgreen;
 }
 
 @media screen and (min-width: 735px) {

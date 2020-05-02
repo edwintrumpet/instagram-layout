@@ -1,5 +1,83 @@
 .header {
-    background-color: tomato;
+    display: grid;
+    grid-template-columns: 1fr minmax(222px, 1fr);
+    grid-template-areas: "logo navigation";
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
     width: 100%;
+    max-width: 975px;
     height: 54px;
+    padding: 0 20px;
+}
+
+.header__logo {
+    grid-area: logo;
+    cursor: pointer;
+}
+
+.header__search {
+    display: none;
+    grid-area: search;
+    text-align: center;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 7px;
+    background-color: #fafafa;
+    color: #8e8e8e;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    height: 28px;
+    border-radius: 4px;
+}
+
+.header__search::placeholder {
+    color: #8e8e8e;
+}
+
+.header__search:focus {
+    text-align: left;
+    color: #000;
+}
+
+.header__navigation {
+    grid-area: navigation;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__navigation-content {
+    display: flex;
+    width: 222px;
+    padding-left: 24px;
+    justify-content: space-between;
+}
+
+.material-icons {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header__navigation-avatar {
+    background-color: khaki;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header__navigation-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 580px) {
+    .header {
+        grid-template-columns: 1fr 215px minmax(222px, 1fr);
+        grid-template-areas: "logo search navigation"; 
+    }
+    .header__search {
+        display: initial;
+    }
 }

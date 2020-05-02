@@ -2,7 +2,9 @@
 
 Platzi CSS Grid course project, Instagram Layout.
 
-Pictures taken from [Pexels](https://www.pexels.com/)
+Pictures from [Pexels](https://www.pexels.com/)
+Original logo from [Instagram](https://instagram.com)
+Icons from [Font Awesome](https://fontawesome.com/)
 
 ## Author
 
